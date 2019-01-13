@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shibo's Portfolio</title>
+    <link rel="icon shortcut" href="./img/logo.png">
+    <link rel="stylesheet" href="css/css-reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- navbar section-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg full-width">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="#home">My Zone</a>
+
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#project">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#book">Books</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section class="main d-flex justify-content-center" id="home">
+        <div id="myparticles"></div>
+        <div class="main-content align-self-center">
+            <div class="welcome">Welcom</div>
+            <div class="type">I am <span class="mytext"></span></div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/shibo.chen.16"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/shibo-chen-506b53131/"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://github.com/shibochen"><i class="fa fa-github fa-lg"></i></a>
+                <a href="https://codepen.io/shibochen/"><i class="fa fa-codepen fa-lg"></i></a>
+            </div>
+
+            <a href="#portfolio" class="cta cta-portfolio">Portfolio</a>
+            <a href="#contact" class="cta cta-contact">Contact</a>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="section-padding about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="./img/person.jpeg" alt="person" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <h3>About Me</h3>
+                    <h5>Front End Developer</h5>
+                    <p>Hello Everyone! I'm Shibo Chen based on New York City. I have a passion for web development and
+                        love to create for web and mobile devices. </p>
+                    <ul>
+                        <li>- Extremely eager to learn new skills and challenge myself</li>
+                        <li>- Solid knowledge of HTML/HTML5, CSS/CSS3 and JavaScript/ES6</li>
+                        <li>- Experience in designing, developing, and managing responsive websites</li>
+                        <li>- Experience with modern JavaScript framworks(such as React/Redux, JQuery) and CSS
+                            pre-processing frameworks(Sass/Scss)</li>
+                    </ul>
+
+                    <a href="#contact" class="about-contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- exp-skills section -->
+    <section class="section-padding exp-skills" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 education">
+                    <div class="section-header">
+                        <h3>Education</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <h5>BE in Chemical Engineering</h5>
+                            <p><strong>Stony Brook University, NY</strong></p>
+                        </li>
+                        <li>
+                            <h5>BS in Chemisty</h5>
+                            <p><strong>Stony Brook University, NY</strong></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 skills">
+                    <div class="section-header">
+                        <h3>Skills</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <h5>HTML/HTML5</h5>
+                            <div class="progress-content">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h5>CSS/CSS3</h5>
+                            <div class="progress-content">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h5>JavaScript/ES6</h5>
+                            <div class="progress-content">
+                                <div class="skill-progress" data-progress="96"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 skills">
+                    <ul class="parallel">
+                        <li>
+                            <h5>React</h5>
+                            <div class="progress-content">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h5>Bootstrap</h5>
+                            <div class="progress-content">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h5>jQuery</h5>
+                            <div class="progress-content">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- project section -->
+    <section class="section-padding project" id="project">
+        <div class="container">
+            <div class="row">
+                <div class="section-header text-center full-width">
+                    <h3>My Recent Works</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="project-content col-md-4">
+                    <div class="project-image">
+                        <a href="https://revents-216601.firebaseapp.com"><img src="./img/project-1.PNG" alt="EventBook"></a>
+                    </div>
+                    <div class="project-name">
+                        <h5>EventBook</h5>
+                    </div>
+                </div>
+
+                <div class="project-content col-md-4">
+                    <div class="project-image">
+                        <a href="http://csrookie.thecompletewebhosting.com"><img src="./img/project-2.PNG" alt="car-sharing"></a>
+                    </div>
+                    <div class="project-name">
+                        <h5>Car-Sharing</h5>
+                    </div>
+                </div>
+
+                <div class="project-content col-md-4">
+                    <div class="project-image">
+                        <a href="http://dokidokilemon.offyoucode.co.uk"><img src="./img/project-3.PNG" alt=""></a>
+                    </div>
+                    <div class="project-name">
+                        <h5>Online Note App</h5>
+                    </div>
+                </div>
+
+                <div class="project-content col-md-4">
+                    <div class="project-image">
+                        <a href="https://peaceful-caverns-67754.herokuapp.com/index.html"><img src="./img/project-4.PNG"
+                                alt="Fruit Slice Game"></a>
+                    </div>
+                    <div class="project-name">
+                        <h5>Fruit Slice Game</h5>
+                    </div>
+                </div>
+
+                <div class="project-content col-md-4">
+                    <div class="project-image">
+                        <a href="https://codepen.io/shibochen/full/zpWMGa"><img src="./img/project-5.PNG" alt="Wiki API Search"></a>
+                    </div>
+                    <div class="project-name">
+                        <h5>Wiki API Search</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- book section -->
+    <section class="section-padding book" id="book">
+        <div class="container">
+            <div class="row">
+                <div class="section-header text-center full-width">
+                    <h3>Here's Books I've Read</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <ul class="filter text-center full-width">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".html">HTML</li>
+                    <li data-filter=".css">CSS</li>
+                    <li data-filter=".javascript">JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="book-container full-width">
+                    <div class="book-item col-md-3 html">
+                        <div class="item-content text-center">
+                            <img src="./img/book-1.PNG" class="img-fluid" alt="html book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">HTML and CSS: Design and Build Websites</div>
+                                    <div class="item-icon"><a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1547271787&sr=8-3&keywords=html"><i
+                                                class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-item col-md-3 css">
+                        <div class="item-content text-center">
+                            <img src="./img/book-2.PNG" class="img-fluid" alt="css book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">CSS: The Definitive Guide</div>
+                                    <div class="item-icon"><a href="https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195/ref=sr_1_3?ie=UTF8&qid=1547271747&sr=8-3&keywords=css"><i
+                                                class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-item col-md-3 css">
+                        <div class="item-content text-center">
+                            <img src="./img/book-3.PNG" class="img-fluid" alt="css book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">CSS世界</div>
+                                    <div class="item-icon"><a href="https://book.douban.com/subject/27615777/"><i class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-item col-md-3 javascript">
+                        <div class="item-content text-center">
+                            <img src="./img/book-4.PNG" class="img-fluid" alt="js book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">Professional JavaScript for Web Developers</div>
+                                    <div class="item-icon"><a href="https://www.amazon.com/Professional-JavaScript-Developers-Matt-Frisbie/dp/1119366445/ref=sr_1_29?ie=UTF8&qid=1547271673&sr=8-29&keywords=javascript"><i
+                                                class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-item col-md-3 javascript">
+                        <div class="item-content text-center">
+                            <img src="./img/book-5.PNG" class="img-fluid" alt="js book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">You Don't Know JS: Up & Going</div>
+                                    <div class="item-icon"><a href="https://www.amazon.com/You-Dont-Know-JS-Going-ebook/dp/B00V20DQU8/ref=sr_1_20?ie=UTF8&qid=1547271573&sr=8-20&keywords=javascript"><i
+                                                class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-item col-md-3 javascript">
+                        <div class="item-content text-center">
+                            <img src="./img/book-6.PNG" class="img-fluid" alt="js book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">JavaScript Design Patterns</div>
+                                    <div class="item-icon"><a href="https://www.amazon.com/Learning-JavaScript-Design-Patterns-Developers/dp/1449331815/ref=sr_1_3?ie=UTF8&qid=1547271710&sr=8-3&keywords=javascript+design+pattern"><i
+                                                class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-item col-md-3 javascript">
+                        <div class="item-content text-center">
+                            <img src="./img/book-7.PNG" class="img-fluid" alt="js book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">锋利的jQuery</div>
+                                    <div class="item-icon"><a href="https://book.douban.com/subject/10792216/"><i class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-item col-md-3 javascript">
+                        <div class="item-content text-center">
+                            <img src="./img/book-8.PNG" class="img-fluid" alt="js book">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="info full-width">
+                                    <div class="description">DOM Scripting</div>
+                                    <div class="item-icon"><a href="https://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893/ref=sr_1_4?ie=UTF8&qid=1547271313&sr=8-4&keywords=javascript+dom"><i
+                                                class="fa fa-link"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="section-padding contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="section-header">Get In Touch</div>
+                    <div class="contact-details">If you have a project that you want to get started, think you need my
+                        help with something, then let's have a chat!</div>
+                    <div class="contact-details"><i class="fa fa-phone fa-lg"></i> (347)257-2778</div>
+                    <div class="contact-details"><i class="fa fa-envelope fa-lg"></i> shibochen@hotmail.com</div>
+                </div>
+                <div class="col-md-5">
+                    <ul class="contact-social-icons">
+                        <li><i class="fa fa-facebook"></i><a href="https://www.facebook.com/shibo.chen.16">ON FACEBOOK</a></li>
+                        <li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/shibo-chen-506b53131/">ON
+                                LINKEDIN</a></li>
+                        <li><i class="fa fa-github"></i><a href="https://github.com/shibochen">ON GITHUB</a></li>
+                        <li><i class="fa fa-codepen"></i><a href="https://codepen.io/shibochen/">ON CODEPEN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="text-center">
+        <p>Shibo Chen &copy; 2018 - 2019. All rights reserved.</p>
+    </footer>
+
+    <!-- js files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/particles.min.js"></script>
+    <script type="text/javascript" src="js/myparticles.js" defer="defer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
